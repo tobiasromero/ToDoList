@@ -1,0 +1,159 @@
+.tachado {
+    text-decoration: line-through;
+    text-decoration-color: black;
+    
+    
+}
+
+
+#body {
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    background-color: #efefdf;
+  
+    margin: auto;  
+    padding: 0;
+
+}
+.input {
+    border-radius: 50px;
+    background-color: grey;
+    border-color: transparent;
+    margin-left: 20%;
+    
+}
+h1 {
+    color: white;
+    font-size: 5vh;
+    font-family:cursive;
+}
+.h1:hover {
+    text-decoration: line-through;
+    color: black;
+}
+
+h3 {
+    color: black;
+    font-size: 5vh;
+    font-family: cursive;
+}
+.buttonDelete {
+
+    border-radius: 100%;
+}
+
+.inputButton {
+    margin-right: 2%; 
+    margin-left: 1%;
+    border-radius: 10px;
+    height: 25px;
+    width: 5%;
+    background-color: #0f1a1c;
+    color: #efefdf;
+    border-color: transparent;
+}
+.clearButton {
+    margin-right: 5%;
+    border-radius: 10px;
+    height: 25px;
+    width: 5%;
+    background-color: #0f1a1c;
+    color: #efefdf;
+    border-color: transparent;
+}
+.saveButton {
+    border-radius: 7px;
+    height: 25px;
+    width: 5%;
+    background-color: #0f1a1c;
+    color: #efefdf;
+    border-color: transparent;
+
+}
+.loadButton{
+    border-radius: 10px;
+    height: 25px;
+    width: 5%;
+    background-color: #0f1a1c;
+    color: #efefdf;
+    border-color: transparent;
+}
+.loadButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.divBar {
+    background-color: #bcb286;
+    padding-bottom: 3%;
+    height: 150%;
+    width: 100%;
+    
+}
+
+.containerh3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    text-align: center;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente en el centro */
+    gap: 20px; /* Espacio entre los elementos */
+    width: 100%;
+    padding: 0px;
+    background-color: #333; /* Fondo del footer */
+    color: white; /* Color de texto */
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+
+    
+
+}
+
+.footer p {
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+.footer a {
+    color: white; /* Color del enlace */
+    text-decoration: none; /* Quita el subrayado */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subraya al pasar el mouse */
+}
+
+.footer img {
+    width: 20px; /* Tamaño de los iconos */
+    vertical-align: middle; /* Alinea los iconos con el texto */
+    margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+.footer p {
+    font-family: cursive;
+}
+
+.saveButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.clearButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.inputButton:hover {
+    background-color: white;
+    color: black;
+}
+
